@@ -1,0 +1,15 @@
+# data and weights (reproduce with python -m smogcast.collect and python -m smogcast.train; data/MANIFEST.json pins the raw files)
+data/raw/
+data/cron_*.log
+models/*/model.joblib
+# local MLflow store and project-local packages
+mlflow/
+.pydeps/
+# secrets
+.env
+*.key
+# caches and logs
+__pycache__/
+.pytest_cache/
+logs/
+reports/server.log

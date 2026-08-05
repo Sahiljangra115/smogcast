@@ -1,0 +1,15 @@
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.1
+requests==2.34.2
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.5
+joblib==1.6.0
+prometheus_client==0.26.0
+pytest==9.1.1
+httpx==0.28.1
+# Optional MLflow tracking (smogcast/tracking.py). Kept out of the shared venv because it downgrades protobuf/anyio there:
+#   uv pip install --target .pydeps mlflow-skinny==3.17.1
+# In a fresh environment a plain `pip install mlflow-skinny==3.17.1` also works.

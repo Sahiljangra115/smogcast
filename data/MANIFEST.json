@@ -1,0 +1,52 @@
+{
+  "anand_vihar.csv": {
+    "sha256": "066ce07ffeafc9df644ad3c786b4c054c466915a0171ccadee2ea5b2ebb3b3af",
+    "bytes": 1926644,
+    "rows": 33185
+  },
+  "delhi_centre.csv": {
+    "sha256": "5f340c3cbee7d4150e2f059fc4b30415cfcc3a9462f53862e11abd08d450a0b9",
+    "bytes": 1928007,
+    "rows": 33185
+  },
+  "dwarka.csv": {
+    "sha256": "4192d142ef7ea814f15e99c1177e06f4817a286634bcbea119557dc4457dfe8d",
+    "bytes": 1933212,
+    "rows": 33185
+  },
+  "faridabad.csv": {
+    "sha256": "f9aceda9e7223348a2db1ebf4f91e21fb87e8cd1a088dfbdc9501d08004b7df2",
+    "bytes": 1934407,
+    "rows": 33185
+  },
+  "gurugram.csv": {
+    "sha256": "8e8697bb9323c6d6a39f28ecbf7f7c3c27aab16ddd39279e6c6d89376b6f6c8f",
+    "bytes": 1933544,
+    "rows": 33185
+  },
+  "meerut.csv": {
+    "sha256": "a9343aeb63b4c64220609e7e2194b3f64b4f82a01a6bf11d87b442ce6bbfe54c",
+    "bytes": 1922168,
+    "rows": 33185
+  },
+  "noida.csv": {
+    "sha256": "18aabd9cfdf8e1b72c7d366e732f11ac7b0650b5e76bd774ba027ad8bfaf2ffd",
+    "bytes": 1934169,
+    "rows": 33185
+  },
+  "panipat.csv": {
+    "sha256": "9ff713367e20b2da8eb7855efacf32f193f70146006215155fe00438473517e9",
+    "bytes": 1929213,
+    "rows": 33185
+  },
+  "rewari.csv": {
+    "sha256": "1767514761ef0fbf46ddcde25f5af37e81a44b1c203fc74774f7eb63e0e13a2b",
+    "bytes": 1925454,
+    "rows": 33185
+  },
+  "rohini.csv": {
+    "sha256": "4456eebf9a8e9b75fe6bfd7f9ad9ddb6692734f5c52aee06f6fe5bb6242752d1",
+    "bytes": 1926485,
+    "rows": 33185
+  }
+}
