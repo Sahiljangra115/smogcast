@@ -1,0 +1,11 @@
+# Not built or run yet. Models and data are bind-mounted so promote/rollback + /reload work without a rebuild.
+services:
+  serve:
+    build: .
+    ports: ["8077:8077"]
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8077/health')"]
+      interval: 30s
