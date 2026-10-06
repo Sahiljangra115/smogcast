@@ -1,0 +1,22 @@
+# DVC pipeline definition. NOT run: dvc is not installed here. To use:
+#   pip install dvc && dvc init && dvc add data/raw && dvc repro
+# (dvc add makes data/raw.dvc; commit that file, keep data/raw out of git.)
+stages:
+  train:
+    cmd: python -m smogcast.train
+    deps:
+      - data/raw
+      - smogcast
+    outs:
+      - models
+    metrics:
+      - reports/metrics.json:
+          cache: false
+  replay:
+    cmd: python -m smogcast.retrain
+    deps:
+      - data/raw
+      - smogcast
+    metrics:
+      - reports/replay.json:
+          cache: false
