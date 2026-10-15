@@ -1,0 +1,6 @@
+# Not installed. Edit the two paths, then: crontab deploy/crontab.txt
+# Hourly ingestion, then a weekly full pipeline pass (drift check + retrain + gate) Mondays 03:00.
+SMOGCAST_DIR=/path/to/smogcast
+PY=/path/to/venv/bin/python
+5 * * * * cd "$SMOGCAST_DIR" && "$PY" -m smogcast.collect >> data/cron_collect.log 2>&1
+0 3 * * 1 cd "$SMOGCAST_DIR" && "$PY" scripts/pipeline.py --no-collect >> data/cron_pipeline.log 2>&1

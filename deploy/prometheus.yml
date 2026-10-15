@@ -1,0 +1,9 @@
+# Minimal Prometheus scrape config for the smogcast server (uvicorn smogcast.serve:app --port 8077).
+# Not run: no Prometheus server is installed on the dev machine. Pair with deploy/grafana/smogcast-dashboard.json.
+global:
+  scrape_interval: 15s
+scrape_configs:
+  - job_name: smogcast
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["127.0.0.1:8077"]

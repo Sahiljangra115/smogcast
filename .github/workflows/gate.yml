@@ -1,0 +1,19 @@
+# Blocks promotion of a candidate model that loses to the current one on the frozen eval window.
+# The candidate is whatever models/CANARY points at (set by: python scripts/gate.py vNNN --canary).
+# Never executed on GitHub (no remote). The same commands were run locally, see README "CI gate".
+# On GitHub this also needs data/raw and the model weights, which are gitignored: add a DVC pull
+# or artifact download step before the gate.
+name: model-gate
+on:
+  pull_request:
+    paths: ["models/**", "smogcast/**"]
+jobs:
+  test-and-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q tests
+      - run: if [ -f models/CANARY ]; then python scripts/gate.py "$(cat models/CANARY)"; else echo "no candidate in models/CANARY, nothing to gate"; fi

@@ -1,0 +1,9 @@
+# Not installed. %h is your home dir; edit both paths if the project or venv live elsewhere. Copy both files to ~/.config/systemd/user/ then:
+#   systemctl --user daemon-reload && systemctl --user enable --now smogcast-ingest.timer
+[Unit]
+Description=Smogcast hourly ingestion
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Developer/Portfolio/smogcast
+ExecStart=%h/Developer/Machine-learning/.venv/bin/python -m smogcast.collect
