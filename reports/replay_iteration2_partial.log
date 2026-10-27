@@ -1,0 +1,21 @@
+2024-07-08 ['psi:wind_speed_10m', 'psi:nw_frac24', 'psi:boundary_layer_height', 'psi:temperature_2m'] gate {'candidate_mae': 11.63, 'current_mae': 8.34, 'promote': False}
+2024-07-22 ['psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 13.47, 'current_mae': 12.15, 'promote': False}
+2024-08-05 ['psi:nw_frac24'] gate {'candidate_mae': 13.47, 'current_mae': 13.82, 'promote': True}
+2024-08-19 ['psi:nw_frac24', 'psi:boundary_layer_height', 'psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 11.86, 'current_mae': 9.68, 'promote': False}
+2024-09-02 ['psi:temperature_2m'] gate {'candidate_mae': 10.39, 'current_mae': 10.39, 'promote': True}
+2024-09-16 ['psi:nw_frac24', 'psi:boundary_layer_height', 'psi:temperature_2m'] gate {'candidate_mae': 10.94, 'current_mae': 9.29, 'promote': False}
+2024-09-30 ['psi:nw_frac24'] gate {'candidate_mae': 16.64, 'current_mae': 16.64, 'promote': True}
+2024-10-14 ['psi:nw_frac24'] gate {'candidate_mae': 17.07, 'current_mae': 13.15, 'promote': False}
+2024-10-28 ['psi:nw_frac24', 'psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 16.16, 'current_mae': 16.16, 'promote': True}
+2024-11-11 ['psi:nw_frac24', 'psi:temperature_2m', 'error_ratio'] gate {'candidate_mae': 23.11, 'current_mae': 19.5, 'promote': False}
+2024-11-25 ['psi:wind_speed_10m', 'ks:pm2_5'] gate {'candidate_mae': 29.93, 'current_mae': 29.93, 'promote': True}
+2024-12-09 ['psi:boundary_layer_height'] gate {'candidate_mae': 28.15, 'current_mae': 23.35, 'promote': False}
+2024-12-30 ['psi:wind_speed_10m', 'psi:nw_frac24', 'psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 34.95, 'current_mae': 34.37, 'promote': False}
+2025-01-13 ['psi:temperature_2m'] gate {'candidate_mae': 39.21, 'current_mae': 39.57, 'promote': True}
+2025-01-27 ['psi:temperature_2m', 'error_ratio'] gate {'candidate_mae': 37.98, 'current_mae': 29.58, 'promote': False}
+2025-02-10 ['psi:temperature_2m'] gate {'candidate_mae': 31.67, 'current_mae': 31.67, 'promote': True}
+2025-02-24 ['psi:wind_speed_10m', 'psi:temperature_2m'] gate {'candidate_mae': 23.4, 'current_mae': 17.65, 'promote': False}
+2025-03-17 ['ks:pm2_5'] gate {'candidate_mae': 27.6, 'current_mae': 27.23, 'promote': False}
+2025-03-31 ['ks:pm2_5', 'error_ratio'] gate {'candidate_mae': 41.56, 'current_mae': 41.56, 'promote': False}
+2025-04-14 ['psi:wind_speed_10m', 'psi:nw_frac24', 'psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 37.59, 'current_mae': 40.66, 'promote': True}
+2025-04-28 ['psi:nw_frac24', 'psi:temperature_2m', 'ks:pm2_5'] gate {'candidate_mae': 31.29, 'current_mae': 24.6, 'promote': False}

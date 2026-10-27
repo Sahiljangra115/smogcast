@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-27T11:17:31+00:00",
+  "canary_weight_env": 0.2,
+  "current": "v002",
+  "canary": "v001",
+  "note": "v001 passed the gate as a tie with v002 (identical models), so it is used only to exercise the live split.",
+  "n_requests": 1000,
+  "variant_counts": {
+    "current": 814,
+    "canary": 186
+  },
+  "canary_share": 0.186,
+  "versions_seen": {
+    "current:v002": 814,
+    "canary:v001": 186
+  },
+  "metrics_lines": [
+    "smogcast_predictions_total{model_version=\"v002\",variant=\"current\"} 814.0",
+    "smogcast_predictions_total{model_version=\"v001\",variant=\"canary\"} 186.0",
+    "smogcast_model_info{model_version=\"v002\",variant=\"current\"} 1.0",
+    "smogcast_model_info{model_version=\"v001\",variant=\"canary\"} 1.0",
+    "smogcast_canary_weight 0.2"
+  ]
+}

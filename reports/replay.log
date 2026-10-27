@@ -1,0 +1,154 @@
+2024-08-19 ['psi:nw_frac24', 'ks:pm2_5'] gate h24 MAE candidate 11.37 vs current 11.47 promote True
+2024-10-21 ['psi:nw_frac24', 'error_ratio'] gate h24 MAE candidate 16.17 vs current 15.85 promote False
+2024-11-18 ['psi:nw_frac24', 'psi:temperature_2m'] gate h24 MAE candidate 25.22 vs current 25.67 promote True
+2025-01-13 ['psi:nw_frac24', 'psi:temperature_2m'] gate h24 MAE candidate 39.95 vs current 39.37 promote False
+2025-03-31 ['ks:pm2_5', 'error_ratio'] gate h24 MAE candidate 36.83 vs current 36.16 promote False
+2025-04-28 ['psi:nw_frac24', 'psi:temperature_2m', 'ks:pm2_5'] gate h24 MAE candidate 28.65 vs current 34.95 promote True
+2025-05-26 ['psi:nw_frac24', 'ks:pm2_5', 'error_ratio'] gate h24 MAE candidate 35.27 vs current 35.27 promote True
+2025-06-23 ['psi:wind_speed_10m', 'psi:nw_frac24', 'ks:pm2_5'] gate h24 MAE candidate 29.33 vs current 29.33 promote True
+2025-08-18 ['psi:wind_speed_10m', 'ks:pm2_5'] gate h24 MAE candidate 24.54 vs current 24.86 promote True
+2025-11-03 ['psi:wind_speed_10m', 'psi:temperature_2m'] gate h24 MAE candidate 17.42 vs current 16.83 promote False
+2025-12-01 ['psi:nw_frac24', 'psi:temperature_2m'] gate h24 MAE candidate 25.3 vs current 24.87 promote False
+2026-03-16 ['psi:temperature_2m', 'ks:pm2_5'] gate h24 MAE candidate 21.25 vs current 21.74 promote True
+2026-06-29 ['psi:nw_frac24', 'ks:pm2_5'] gate h24 MAE candidate 40.0 vs current 40.73 promote True
+2026-08-31 ['psi:wind_speed_10m', 'psi:nw_frac24'] gate h24 MAE candidate 20.51 vs current 20.69 promote True
+{
+  "summary_mae_h24": {
+    "static": 28.110866160584564,
+    "triggered": 25.662610106970707,
+    "periodic": 25.30934034389467,
+    "persistence": 27.50193081415664
+  },
+  "weeks": 120,
+  "data_end": "2026-10-14 16:00:00",
+  "drift_events": [
+    {
+      "date": "2024-08-19",
+      "flags": [
+        "psi:nw_frac24",
+        "ks:pm2_5"
+      ],
+      "retrained": true,
+      "promoted": true,
+      "gate": {
+        "candidate_mae": 11.366575163198151,
+        "current_mae": 11.467919505114322,
+        "per_horizon": {
+          "h24": {
+            "candidate_mae": 11.366575163198151,
+            "current_mae": 11.467919505114322
+          }
+        },
+        "promote": true
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:temperature_2m",
+        "ks:pm2_5"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2024-09-02",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:boundary_layer_height",
+        "psi:temperature_2m",
+        "ks:pm2_5"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2024-09-09",
+      "flags": [
+        "psi:temperature_2m",
+        "ks:pm2_5"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2024-10-21",
+      "flags": [
+        "psi:nw_frac24",
+        "error_ratio"
+      ],
+      "retrained": true,
+      "promoted": false,
+      "gate": {
+        "candidate_mae": 16.170235707921766,
+        "current_mae": 15.854429459049472,
+        "per_horizon": {
+          "h24": {
+            "candidate_mae": 16.170235707921766,
+            "current_mae": 15.854429459049472
+          }
+        },
+        "promote": false
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:temperature_2m"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2024-11-11",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:temperature_2m",
+        "ks:pm2_5",
+        "error_ratio"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2024-11-18",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:temperature_2m"
+      ],
+      "retrained": true,
+      "promoted": true,
+      "gate": {
+        "candidate_mae": 25.221525227920356,
+        "current_mae": 25.666638530024006,
+        "per_horizon": {
+          "h24": {
+            "candidate_mae": 25.221525227920356,
+            "current_mae": 25.666638530024006
+          }
+        },
+        "promote": true
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "flags": [
+        "psi:wind_speed_10m",
+        "ks:pm2_5"
+      ],
+      "retrained": false,
+      "promoted": false
+    },
+    {
+      "date": "2025-01-13",
+      "flags": [
+        "psi:nw_frac24",
+        "psi:temperature_2m"
+      ],
+      "retrained": true,
+      "promoted": false,
+      "gate": {
+        "candidate_mae": 39.95062268538786,
+     

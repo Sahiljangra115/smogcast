@@ -1,0 +1,21 @@
+# gate.yml steps run locally on 2026-10-27T11:11:58Z, ml venv, 12th Gen Intel(R) Core(TM) i5-12450H. CANARY set by hand for each candidate, then removed. CURRENT is v002 throughout.
+# Rule: pass if candidate MAE <= current MAE at both 24 h and 48 h on the frozen window. Data: 5 distinct CAMS cells.
+## step: pytest
+14 passed in 4.84s
+## step: gate (no CANARY)
+no candidate in models/CANARY, nothing to gate
+exit 0
+## step: gate (CANARY=v001)
+candidate v001 vs current v002, frozen window 2025-07-01 onward
+h24 MAE: candidate 26.357 vs current 26.357 ug/m3
+h48 MAE: candidate 29.841 vs current 29.841 ug/m3
+PASS (equal or better at every horizon)
+exit 0
+## step: gate (CANARY=v003)
+candidate v003 vs current v002, frozen window 2025-07-01 onward
+h24 MAE: candidate 26.379 vs current 26.357 ug/m3
+h48 MAE: candidate 29.847 vs current 29.841 ug/m3
+BLOCKED (candidate worse at one or more horizons)
+exit 1
+# v001 and v002 were fit on the same frozen split with the same seed, so they are identical: the tie now passes.
+# v003 was fit on the 5 deduped cells only (v002 also saw the 5 duplicate points' weather) and is slightly worse at both horizons, so it is blocked.

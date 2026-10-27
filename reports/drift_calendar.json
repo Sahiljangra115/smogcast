@@ -1,0 +1,446 @@
+[
+  {
+    "date": "2024-08-19",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2024-08-26",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2024-09-02",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:boundary_layer_height",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2024-09-09",
+    "flags": [
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2024-10-21",
+    "flags": [
+      "psi:nw_frac24",
+      "error_ratio"
+    ],
+    "retrained": true,
+    "promoted": false,
+    "calendar": [
+      "stubble season 2024"
+    ]
+  },
+  {
+    "date": "2024-11-04",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "Diwali 2024",
+      "stubble season 2024"
+    ]
+  },
+  {
+    "date": "2024-11-11",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5",
+      "error_ratio"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "Diwali 2024",
+      "stubble season 2024"
+    ]
+  },
+  {
+    "date": "2024-11-18",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": [
+      "Diwali 2024",
+      "stubble season 2024"
+    ]
+  },
+  {
+    "date": "2024-12-02",
+    "flags": [
+      "psi:wind_speed_10m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "stubble season 2024"
+    ]
+  },
+  {
+    "date": "2025-01-13",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m"
+    ],
+    "retrained": true,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-03-31",
+    "flags": [
+      "ks:pm2_5",
+      "error_ratio"
+    ],
+    "retrained": true,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-04-21",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5",
+      "error_ratio"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-04-28",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2025-05-05",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-05-12",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-05-19",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-05-26",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5",
+      "error_ratio"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2025-06-02",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-06-09",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-06-16",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-06-23",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": [
+      "monsoon onset 2025"
+    ]
+  },
+  {
+    "date": "2025-06-30",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2025"
+    ]
+  },
+  {
+    "date": "2025-07-07",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2025"
+    ]
+  },
+  {
+    "date": "2025-07-14",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "psi:temperature_2m"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2025"
+    ]
+  },
+  {
+    "date": "2025-08-18",
+    "flags": [
+      "psi:wind_speed_10m",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2025-08-25",
+    "flags": [
+      "psi:wind_speed_10m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2025-11-03",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:temperature_2m"
+    ],
+    "retrained": true,
+    "promoted": false,
+    "calendar": [
+      "Diwali 2025",
+      "stubble season 2025"
+    ]
+  },
+  {
+    "date": "2025-11-24",
+    "flags": [
+      "error_ratio"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "stubble season 2025"
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "flags": [
+      "psi:nw_frac24",
+      "psi:temperature_2m"
+    ],
+    "retrained": true,
+    "promoted": false,
+    "calendar": [
+      "stubble season 2025"
+    ]
+  },
+  {
+    "date": "2025-12-15",
+    "flags": [
+      "error_ratio"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "stubble season 2025"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "flags": [
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2026-03-30",
+    "flags": [
+      "psi:temperature_2m",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2026-06-29",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": [
+      "monsoon onset 2026"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2026"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5",
+      "error_ratio"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2026"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": [
+      "monsoon onset 2026"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24"
+    ],
+    "retrained": true,
+    "promoted": true,
+    "calendar": []
+  },
+  {
+    "date": "2026-09-07",
+    "flags": [
+      "psi:wind_speed_10m",
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  },
+  {
+    "date": "2026-09-14",
+    "flags": [
+      "psi:nw_frac24",
+      "ks:pm2_5"
+    ],
+    "retrained": false,
+    "promoted": false,
+    "calendar": []
+  }
+]
